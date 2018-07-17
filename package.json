@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall" : "npm install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,8 +18,8 @@
   },
   "homepage": "https://github.com/phamnghia/pints#readme",
   "dependencies": {
-    "@pints/cores": "file:./cores",
-    "@pints/socket": "file:./socket",
-    "@pints/utils": "file:./utils"
+    "cores": "file:./cores",
+    "socket": "file:./socket",
+    "utils": "file:./utils"
   }
 }
