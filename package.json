@@ -1,12 +1,25 @@
 {
-  "name": "pints",
-  "version": "2.0.0",
+  "name": "Pints",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://phamnghia@github.com/phamnghia/pints.git"
+  },
   "keywords": [],
-  "author": "nghiapd92@gmail.com",
-  "license": "ISC"
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phamnghia/pints/issues"
+  },
+  "homepage": "https://github.com/phamnghia/pints#readme",
+  "dependencies": {
+    "@pints/cores": "file:./cores",
+    "@pints/socket": "file:./socket",
+    "@pints/utils": "file:./utils"
+  }
 }
