@@ -2,7 +2,7 @@ const {
 	AppLogger, 
 	AppValidator,
 	AppValidationRule
-} 														= require("@pints/utils");
+} 														= require("pints/utils");
 const AppException 						= require("./exception");
 const CustomException 				= require("./custom_exception");
 const AppExceptionHandler 		= require("./exception_handler");

@@ -1,4 +1,4 @@
-const { AppLogger } = require("@pints/utils");
+const { AppLogger } = require("pints/utils");
 const AppException = require("./exception");
 
 module.exports = class AppExceptionHandler{

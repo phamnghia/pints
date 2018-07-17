@@ -18,8 +18,12 @@
   },
   "homepage": "https://github.com/phamnghia/pints#readme",
   "dependencies": {
-    "@pints/cores": "file:./cores",
-    "@pints/socket": "file:./socket",
-    "@pints/utils": "file:./utils"
+    "validator" : "^10.4.0",
+    "express" : "^4.16.3",
+		"cli-color": "^1.2.0",
+		"log4js" : "^2.8.0",
+		"socket.io" : "^2.1.1",
+		"passport" : "^0.4.0",
+		"express-session" : "^1.15.6"
   }
 }

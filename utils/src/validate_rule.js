@@ -1,5 +1,5 @@
 const libValidator = require("validator");
-const { AppException } = require("@pints/cores");
+const { AppException } = require("pints/cores");
 const AppValidateAction = require("./validate_action");
 
 module.exports = class AppValidationRule {

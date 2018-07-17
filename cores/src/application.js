@@ -1,15 +1,12 @@
 const express = require("express");
-const fs = require('fs');
 const http = require('http');
-const passport = require("passport");
 
 
 const AppController = require("./controller");
 const AppException = require("./exception");
 const CustomException = require("./custom_exception");
-const AppConfig = require("./config");
-const {AppLogger} = require("@pints/utils");
-const {SocketFactory} = require("@pints/socket");
+const {AppLogger} = require("pints/utils");
+const {SocketFactory} = require("pints/socket");
 
 module.exports = class Application{
   /**
