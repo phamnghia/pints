@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/phamnghia/pints#readme",
   "dependencies": {
-    "cores": "file:./cores",
-    "socket": "file:./socket",
-    "utils": "file:./utils"
+    "cores": "file:cores",
+    "socket": "file:socket",
+    "utils": "file:utils"
   }
 }
